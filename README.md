@@ -46,32 +46,33 @@ We apply coordinate transformation using a homography matrix to accurately map o
 
 We use ImageJ to find the keypoint coordinates manually since the video is stable and not moving. We use the following labels for every keypoint:
 
-TLC: Top Left Corner <br>
-TRC: Top Right Corner <br>
-TR6MC: Top Right 6-yard box Middle Center <br>
-TL6MC: Top Left 6-yard box Middle Center <br>
-TR6ML: Top Right 6-yard box Middle Left <br>
-TL6ML: Top Left 6-yard box Middle Left <br>
-TR18MC: Top Right 18-yard box Middle Center <br>
-TL18MC: Top Left 18-yard box Middle Center <br>
-TR18ML: Top Right 18-yard box Middle Left <br>
-TL18ML: Top Left 18-yard box Middle Left <br>
-TRArc: Top Right Arc (the arc at the top of the penalty area) <br>
-TLArc: Top Left Arc (the arc at the top of the penalty area) <br>
-RML: Right Midline <br>
-RMC: Right Middle Center <br>
-LMC: Left Middle Center <br>
-LML: Left Midline <br>
-BLC: Bottom Left Corner <br>
-BRC: Bottom Right Corner <br>
-BR6MC: Bottom Right 6-yard box Middle Center <br>
-BL6MC: Bottom Left 6-yard box Middle Center <br>
-BR6ML: Bottom Right 6-yard box Middle Left <br>
-BL6ML: Bottom Left 6-yard box Middle Left <br>
-BR18MC: Bottom Right 18-yard box Middle Center <br>
-BL18MC: Bottom Left 18-yard box Middle Center <br>
-BR18ML: Bottom Right 18-yard box Middle Left <br>
-BL18ML: Bottom Left 18-yard box Middle Left <br>
-BRArc: Bottom Right Arc (the arc at the bottom of the penalty area) <br>
-BLArc: Bottom Left Arc (the arc at the bottom of the penalty area) <br>
-
+| Code   | Description                            |
+|--------|----------------------------------------|
+| TLC    | Top Left Corner                        |
+| TRC    | Top Right Corner                       |
+| TR6MC  | Top Right 6-yard box Middle Center     |
+| TL6MC  | Top Left 6-yard box Middle Center      |
+| TR6ML  | Top Right 6-yard box Middle Left       |
+| TL6ML  | Top Left 6-yard box Middle Left        |
+| TR18MC | Top Right 18-yard box Middle Center    |
+| TL18MC | Top Left 18-yard box Middle Center     |
+| TR18ML | Top Right 18-yard box Middle Left      |
+| TL18ML | Top Left 18-yard box Middle Left       |
+| TRArc  | Top Right Arc                          |
+| TLArc  | Top Left Arc                           |
+| RML    | Right Midline                          |
+| RMC    | Right Middle Center                    |
+| LMC    | Left Middle Center                     |
+| LML    | Left Midline                           |
+| BLC    | Bottom Left Corner                     |
+| BRC    | Bottom Right Corner                    |
+| BR6MC  | Bottom Right 6-yard box Middle Center  |
+| BL6MC  | Bottom Left 6-yard box Middle Center   |
+| BR6ML  | Bottom Right 6-yard box Middle Left    |
+| BL6ML  | Bottom Left 6-yard box Middle Left     |
+| BR18MC | Bottom Right 18-yard box Middle Center |
+| BL18MC | Bottom Left 18-yard box Middle Center  |
+| BR18ML | Bottom Right 18-yard box Middle Left   |
+| BL18ML | Bottom Left 18-yard box Middle Left    |
+| BRArc  | Bottom Right Arc                       |
+| BLArc  | Bottom Left Arc                        |
