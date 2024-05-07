@@ -76,3 +76,18 @@ We use ImageJ to find the keypoint coordinates manually since the video is stabl
 | BL18ML | Bottom Left 18-yard box Middle Left    |
 | BRArc  | Bottom Right Arc                       |
 | BLArc  | Bottom Left Arc                        |
+
+For one of the frames, we get the following transformation:
+
+<img width="1011" alt="Screenshot 2024-05-07 at 2 09 18 PM" src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/350334a4-81e3-4d35-a1f0-1a4d9efdb7d7">
+
+## Conclusion and Next Project
+
+<img width="824" alt="Screenshot 2024-05-07 at 2 10 16 PM" src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/46cbfbe3-3f58-4377-9984-de2de1273d0a">
+
+The next step would be to use live-stream videos from the Suzhou College Football League to get useful data from the games for analysis. 
+
+<img width="583" alt="Screenshot 2024-05-07 at 2 10 51 PM" src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/25a2047d-044e-4a3b-a03e-609deb69ce38">
+
+
+
