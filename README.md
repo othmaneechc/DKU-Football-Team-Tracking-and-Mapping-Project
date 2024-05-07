@@ -23,8 +23,8 @@ Player tracking employs ByteTrack, a robust multi-object tracking algorithm desi
 2. **Byte Association**: For fast-moving or temporarily obscured players, ByteTrack calculates a cost matrix using IoU scores between unmatched detections and existing tracks, applying algorithms like the Hungarian method to establish the best matches.
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/472c2b52-86d0-4803-b443-2950f0a30626" alt="ByteTrack Image 1" style="height: 300px; margin-right: 10px;">
-  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/882ca75f-6f92-4c8d-bb82-a9c2e01e1056" alt="ByteTrack Image 2" style="height: 300px; margin-left: 10px;">
+  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/472c2b52-86d0-4803-b443-2950f0a30626" alt="ByteTrack Image 1" style="height: 200px; margin-right: 10px;">
+  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/882ca75f-6f92-4c8d-bb82-a9c2e01e1056" alt="ByteTrack Image 2" style="height: 200px; margin-left: 10px;">
 </div>
 
 ## Predicting the Teams
@@ -44,6 +44,7 @@ We apply coordinate transformation using a homography matrix to accurately map o
   <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/6301a49f-3e72-4b75-ba97-800812de6948" alt="2D Mapping Image 2" style="height: 300px; margin-left: 10px;">
 </div>
 
+We use ImageJ to find the keypoint coordinates manually since the video is stable and not moving. We use the following labels for every keypoint:
 
 TLC: Top Left Corner <br>
 TRC: Top Right Corner <br>
