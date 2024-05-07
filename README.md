@@ -21,8 +21,8 @@ Player tracking employs ByteTrack, a robust multi-object tracking algorithm desi
 2. **Byte Association**: For fast-moving or temporarily obscured players, ByteTrack calculates a cost matrix using IoU scores between unmatched detections and existing tracks, applying algorithms like the Hungarian method to establish the best matches.
 
 <div style="display: flex; justify-content: center; align-items: center; width=100%">
-  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/472c2b52-86d0-4803-b443-2950f0a30626" alt="ByteTrack Image 1" style="height: 200px; margin-right: 10px;">
-  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/882ca75f-6f92-4c8d-bb82-a9c2e01e1056" alt="ByteTrack Image 2" style="height: 200px; margin-left: 10px;">
+  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/472c2b52-86d0-4803-b443-2950f0a30626" alt="ByteTrack Image 1" style="height: 225px; margin-right: 10px;">
+  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/882ca75f-6f92-4c8d-bb82-a9c2e01e1056" alt="ByteTrack Image 2" style="height: 225px; margin-left: 10px;">
 </div>
 
 ## Predicting the Teams
@@ -38,8 +38,8 @@ Colors are analyzed in the L*a*b color space to increase the precision of Euclid
 We apply coordinate transformation using a homography matrix to accurately map out player positions onto a 2D field representation.
 
 <div style="display: flex; justify-content: center; align-items: center; width=100%">
-  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/f9ff3ebc-882b-43f4-afed-fe7a63320ad8" alt="2D Mapping Image 1" style="height: 300px; margin-right: 10px;">
-  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/6301a49f-3e72-4b75-ba97-800812de6948" alt="2D Mapping Image 2" style="height: 300px; margin-left: 10px;">
+  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/f9ff3ebc-882b-43f4-afed-fe7a63320ad8" alt="2D Mapping Image 1" style="height: 400px; margin-right: 10px;">
+  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/6301a49f-3e72-4b75-ba97-800812de6948" alt="2D Mapping Image 2" style="height: 400px; margin-left: 10px;">
 </div>
 
 We use ImageJ to find the keypoint coordinates manually since the video is stable and not moving. We use the following labels for every keypoint:
