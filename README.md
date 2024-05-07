@@ -6,8 +6,6 @@ This project focuses on developing a model to map football players' positions on
 
 Using the Ultralytics YoloV8 model, we detect bounding boxes around moving players. This model, pretrained with weights from extensive datasets, is highly accurate and can be found [here](https://github.com/Mostafa-Nafie/Football-Object-Detection).
 
-![Player Detection Image](https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/f53c8e70-58a5-4fbf-bef3-67416d5eed7f)
-
 Although player detection is highly effective, challenges persist with ball detection due to suboptimal lighting conditions at DKU compared to better-lit stadiums. This lighting issue complicates detection both for the model and human observers. Efforts are underway to enhance data labeling for improved model training.
 
 ![Detection Challenges Image](https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/eb483d12-d55b-44b8-8023-abc92b098821)
