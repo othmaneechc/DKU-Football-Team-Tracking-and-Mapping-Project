@@ -92,8 +92,6 @@ Here is a summary that englobles all the processes done in this project.
 <img width="824" alt="Screenshot 2024-05-07 at 2 10 16 PM" src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/46cbfbe3-3f58-4377-9984-de2de1273d0a">
 <br></br>
 The next step would be to use live-stream videos from the Suzhou College Football League to get useful data from the games for analysis. 
-<br></br>
-<img width="583" alt="Screenshot 2024-05-07 at 2 10 51 PM" src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/25a2047d-044e-4a3b-a03e-609deb69ce38">
 
 
 
