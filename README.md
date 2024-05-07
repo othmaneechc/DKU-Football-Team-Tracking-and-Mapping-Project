@@ -40,8 +40,8 @@ Colors are analyzed in the L*a*b color space to increase the precision of Euclid
 We apply coordinate transformation using a homography matrix to accurately map out player positions onto a 2D field representation.
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/f9ff3ebc-882b-43f4-afed-fe7a63320ad8" alt="2D Mapping Image 1" style="width: 50%; margin-right: 10px;">
-  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/6301a49f-3e72-4b75-ba97-800812de6948" alt="2D Mapping Image 2" style="width: 35%; margin-left: 10px;">
+  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/f9ff3ebc-882b-43f4-afed-fe7a63320ad8" alt="2D Mapping Image 1" style="height: 200px; margin-right: 10px;">
+  <img src="https://github.com/othmaneechc/DKU-Football-Team-Tracking-and-Mapping-Project/assets/77905364/6301a49f-3e72-4b75-ba97-800812de6948" alt="2D Mapping Image 2" style="height: 200px; margin-left: 10px;">
 </div>
 
 
